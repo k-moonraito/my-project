@@ -1,0 +1,52 @@
+#slider{
+    position: relative;
+    height:460px;
+    width:1200px;
+    margin:0 auto;
+}
+.pic{
+    display: none;
+}
+img{
+    position: absolute;
+}
+.navs{
+    position: absolute;
+    top:90%;
+    right:3%;
+}
+.nav{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background-color: #bbb;
+    float: left;
+    margin:5px;
+    cursor: pointer;
+}
+.navs .active{
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #bbb inset;
+    border:none;
+}
+.button{
+    position: absolute;
+    width:30px;
+    height:60px;
+    left:10px;
+    top:50%;
+    margin-top:-40px;
+    text-align: center;
+    cursor:pointer;
+}
+.next{
+    left:auto;
+    right:1%;
+    background: url(../img/pre.png) no-repeat center center;
+}
+.prev{
+    background: url(../img/pre2.png) no-repeat center center;
+}
+.button:hover{
+    background-color:#bbb;
+}

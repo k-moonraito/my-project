@@ -1,0 +1,313 @@
+*{
+	margin:0;
+	padding:0;
+	color:#424242;
+	font-family: 宋体;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+}
+.back1{
+	height:35px;
+	background-color: #f5f5f5;
+}
+.back2{
+	padding-top:24px;
+	height:97px;
+}
+.back3{
+	background-color:#f4f4f4;
+	height:30px;
+}
+.back4{
+	background-color: #F4F4F4;
+	height:632px;
+}
+.tetle1{
+	height:35px;
+	width:1349px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+}
+.li0 form select{
+	float:left;
+	border:0 solid transparent;
+	background:transparent;
+	height:35px;
+	font-size: 12px;
+	line-height: 35px;
+	margin-left: 80px;
+}
+.tt1{
+	list-style: none;  /*把无序排列前面的点去掉*/
+}
+.li1 a{
+	float:left;
+	color:#f40;
+	font-size: 12px;
+	/*border:1px solid black;*/
+	height:35px;
+	line-height:36px;
+	margin: 0 10px;
+}
+.li2 a{
+	float:left;
+	font-size: 12px;
+	height:35px;
+	line-height: 36px;
+	margin-right:25px;
+}
+
+.tt2 li{
+	float:left;
+	
+}
+.tt2 li select{
+	float: left;
+	height:35px;
+	font-size: 12px;
+	background: none;
+	border: 0 solid transparent;
+	width:80px;
+	
+}
+.tt2 li a{
+	height:35px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 36px;
+}
+.tetle2{
+	height:97px;
+	width:1349px;
+	margin: 0 auto;
+}
+.tetle2>a{
+	background-image:url(../img/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+	display: inline-block;
+	
+	padding-top:58px;
+	width: 142px;
+	height: 0;
+	margin: 0 100px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+.ul2{
+	margin-left:360px;
+}
+.ul2 li a{
+	float:left;
+	font-size: 12px;
+	margin: 2px;
+	
+}
+.ul2 li a:hover{
+	color:#f40;
+}
+.ul3{
+	
+	width: 150px;
+	position: absolute;
+		top:52px;
+	left:370px;
+}
+.ul3 li{
+	float:left;
+	margin: 5px;
+	height:25px;
+	line-height: 25px;
+	
+	
+}
+.ul3 li a{
+	display: block;
+	height:25px;
+	padding:0 7px;
+	color: #FF4400;
+}
+.ul3 li a:hover{
+	background-color:#f4f4f4;
+	
+}
+.ul3::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+.tetle2 p #search{
+	width:553px;
+	height:24px;
+	padding:6px 0;
+	border: 2px solid #f40;
+	border-radius: 30px;
+	position: absolute;
+	left:363px;
+	top:78px;
+}
+.tetle2 p #submit{
+	position: absolute;
+	left:900px;
+	top:78px;
+	width:74px;
+	height:40px;
+	background:-webkit-linear-gradient(left,#f90,#f40);
+	border: none;
+	color:white;
+	font-size: 18px;
+	border-radius: 0 30px 30px 0;
+}
+.long{     /*细长条栏目*/
+	height:30px;
+	background:-webkit-linear-gradient(left,#f90,#f40);
+	width:1349px;
+	margin:0 auto;
+}
+.long h2{    /*主题市场*/
+	float:left;
+	width:190px;
+	height:30px;
+	background-color: #ff5000;
+	margin-left: 80px;
+	font-size: 16px;
+	color:white;
+	text-align: center;
+	line-height: 30px;
+	font-family: arial;
+}
+.long ul li a,.long ul li{           /*天猫~玩转黑https://market.m.taobao.com/apps/abs/5/54/d6752?spm=a21bo.2017.201862-1.d1.5af911d9kT8SO3&pos=1&pcPsId=69115&_wvUseWKWebView=YES&psId=69114&acm=20140506001.1003.2.3772116&scm=1003.2.20140506001.OTHER_1532309960403_3772116科技*/
+	float:left;
+	font-family: arial;
+	font-size: 16px;
+	color:white;
+	line-height: 30px;
+}
+.long ul li a{                        /*同上,不包括丨*/
+	font-weight: bold;
+	color:white;
+	height:30px;
+	line-height: 30px;
+	padding:0 8px;
+}
+.long ul li a:hover{
+	background-color: white;
+	color:#ff5000;
+	border-radius: 20px;
+}
+.big{                /*大框架*/
+	background-color: #f4f4f4;
+	width:1190px;
+	height:632px;
+	margin:0 auto;
+}
+.big ul{            /*导航栏大框架*/
+	border:1px  solid #f40;
+	width:188px;
+	border-top: none;
+	background-color: white;
+	
+}
+.big ul li{
+	color:#666;
+	font-size: 14px;
+	padding-left: 20px;
+	text-align: left;
+}
+.big ul li a{                   /*导航栏的字*/
+	color:#666;
+	font-size: 14px;
+	height:32px;
+	line-height: 32px;
+	font-weight: 400;
+	text-align: center;
+	width:188px;
+	
+}
+.big ul li:hover{
+	background-color: #f4f4f4;
+	color:#ff5000;
+}
+.big ul li a:hover{
+	text-decoration:underline;
+	color:#ff5000;
+	
+}
+.zuo{
+	position: absolute;
+	top:195px;
+	left:280px;
+	}
+.xia{
+	position: absolute;
+	top:519px;
+	left:280px;
+	width:520px;
+	height:180px;
+	background-color: white;
+	border-top:3px solid #f40;
+	}
+.xia img{
+	
+}
+.right-top{
+	background-image: url(../img/微信截图_20180717233320.png);
+	position: absolute;
+	right:80px;
+	top:193px;
+	width:290px;
+	height:140px;
+}
+#login{
+	position: relative;
+	left:15px;
+	top: 105px;
+	width:92px;
+	height:25px;
+	margin-right: 2px;
+	background:-webkit-linear-gradient(left,#f40,#f70);
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+	border:none;
+	border-radius: 20px;
+	cursor:pointer;
+}
+#registe,#open{
+	position: relative;
+	left:15px;
+	top: 105px;
+	width:75px;
+	height:25px;
+	margin-right: 2px;
+	margin-left:5px;
+	background:-webkit-linear-gradient(left,#f40,#f70);
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+	border:none;
+	border-radius: 20px;
+	cursor:pointer;
+}
+.right-top p{
+text-align: center;
+margin-top: 110px;
+padding:5px 0;
+background-color: #ffe4dd;
+color: #f40;
+font-size: 12px;
+}
+
+.right-top p span{
+	display: inline-block;
+	width:1px;
+	height:1px;
+	border-left: 7px solid #f40;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-top:5px solid transparent;
+	position: relative;
+	bottom:-1.5px;
+	left:30px;
+	
+}

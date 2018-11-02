@@ -1,0 +1,371 @@
+/* header的总样式 */
+.header{
+    position: fixed;
+    top:0;
+	height:70px;
+	background-color:#07cbc9;
+    width:100%;
+    z-index: 3;
+}
+/* header的logo样式 */
+.header-left-logo{
+	float:left;
+}
+/* header的nav导航样式 */
+.header-right-content{
+	float:right;
+}
+.header-right-content ul{
+	padding-right:100px;
+}
+.header-right-content ul li{
+	float:left;
+    color:white;
+	font-weight:700;
+	line-height:70px;
+    height:70px;
+    width:90px;
+    text-align: center;
+    cursor:pointer;
+}
+.header-right-content ul li:hover{
+    background-color:#000;
+}
+/* banner总样式 */
+.banner{
+	background-image: url(../images/banner3.jpg);
+	background-size:100% 100%;
+    height:500px;
+    position: relative;
+    margin-top:70px;
+}
+.banner .cover{
+    background-color:#000;
+    opacity:0.5; 
+    height:500px;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+/* banner输入区域样式 */
+.banner-input{
+	width:600px;
+	height:330px;
+    position:absolute;
+    z-index: 3;
+	top:50%;
+	margin-top:-165px;
+	left:50%;
+    margin-left:-300px;
+    text-align: center;
+}
+.banner-input li input{
+	background-color:transparent;
+	width:400px;
+	height:35px;
+	margin-bottom:15px;
+	border:2px solid #999;
+	color:#999;
+	font-weight:700;
+}
+.banner-input li input:hover,.banner-input .comment textarea:hover{
+    border:2px solid #07cbc9;
+}
+/* banner多行文本样式 */
+.banner-input .comment textarea{
+	height:80px;
+	background-color:transparent;
+	width:400px;
+	margin-bottom:15px;
+	border:2px solid #999;
+	color:#999;
+	font-weight:700;
+	resize:none;
+}
+/* banner按钮样式 */
+.banner-input .button button{
+	display:block;
+	margin:0 auto;
+	width:130px;
+	height:40px;
+	background-color:transparent;
+	color:white;
+    border:2px solid #999;
+    cursor: pointer;
+}
+.banner-input .button button:hover{
+    background-color:#07cbc9;
+    border:0;
+}
+/* about总样式 */
+.about-top{
+	height:800px;
+	width:100%;
+	position:relative;
+}
+/* about头部标题样式 */
+.about-top-header{
+	width:520px;
+	height:170px;
+	position:absolute;
+	top:35%;
+	margin-top:-150px;
+	left:50%;
+	margin-left:-260px;
+	text-align:center;
+}
+.about-top-header h1{
+	font-size:48px;
+	font-weight:700;
+	
+}
+.about-top-header p{
+	color:#999;
+	margin-top:30px;
+	line-height:25px;
+}
+/* about中心内容样式 */
+.about-top-content{
+	width:1200px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	margin-left:-600px;
+	top:40%;
+}
+.about-top-content-bac{
+    width:1000px;
+    height:500px;
+    margin:0 auto;
+    position: relative;
+}
+/* about中心内容左边样式 */
+.about-top-content-left,.about-top-content-middle,.about-top-content-right{
+    float:left;
+    text-align: center;
+}
+.about-top-content-left{
+    width:25%;
+}
+.about-top-content-middle{
+    width:50%;
+}
+.about-top-content-right{
+    width:25%;
+}
+.about-top-content-left h1{
+    font-size:36px;
+    font-weight:400;
+    display: inline;
+}
+.about-top-content-left div{
+    position: absolute;
+    top:90px;
+    left:20px;
+    width:325px;
+    z-index: 2;
+    
+}
+.about-top-content-left div p{
+    line-height:25px;
+    color:black;
+}
+.about-top-content-left .opacity{
+    width:355px;
+    height:225px;
+    position: absolute;
+    top:70px;
+    left:0;
+    opacity:0.5;
+    background-color: white;
+    border:2px solid #999;
+    z-index: 1;
+}
+.about-top-content-left button{
+    display: block;
+    margin-top:10px;
+    width:105px;
+    height:45px;
+    font-size:16px;
+    color:white;
+    background-color:#000;
+    border:0;
+}
+/* about左边按钮样式 */
+.about-top-content-left button:hover{
+    background-color:#fff;
+    color:#000;
+    border:1px solid #000;
+    cursor: pointer;
+}
+/* about中心内容中间样式 */
+.about-top-content-middle img{
+    width:100%;
+    height:100%;
+}
+/* about中心内容右边样式 */
+.about-top-content-right{
+    margin-left:30px;
+    width:200px;
+    height:300px;
+}
+.about-top-content-right .first{
+    border:1px solid #07cbc9;
+    height:135px;
+    width:200px;
+    margin-bottom:30px;
+}
+.about-top-content-right .second{
+    border:1px solid #07cbc9;
+    height:135px;
+    width:200px;
+}
+/* about下部图片样式 */
+.about-bottom{
+	width:100%;
+}
+.about-bottom-pic li{
+    width:25%;
+    height:260px;
+    float:left;
+    position: relative;
+}
+.about-bottom-pic li img{
+    width:100%;
+    height:100%;
+}
+/* about下部图片按钮样式 */
+.about-bottom-pic li button{
+    display: block;
+    margin-top:10px;
+    width: 85px;
+    height: 35px;
+    font-size: 12px;
+    color: white;
+    background-color: #000;
+    border: 0;
+    position: absolute;
+    top: 171px;
+    left: 50%;
+    margin-left:-42.5px;
+}
+.about-bottom-pic li button:hover{
+    border:1px solid #000;
+    background-color: #07cbc9;
+    cursor: pointer;
+}
+.about-bottom-pic .text{
+    position: absolute;
+    top:20px;
+    left:20px;
+    color:white;
+}
+.about-bottom-pic .text h2{
+    font-size:20px;
+    padding-bottom:20px;
+    font-weight: 100;
+}
+.about-bottom-pic .text h3{
+    font-size: 14px;
+    padding-bottom:20px;
+}
+.about-bottom-pic .text p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.about-bottom-pic .arrow1{
+    width:0;
+    height:0;
+    border-style: solid;
+    border-width:20px 20px 20px 30px;
+    border-color:transparent #07cbc9 transparent transparent;
+    position: absolute;
+    top:50%;
+    left:-50px;
+ }
+ .about-bottom-pic .arrow2{
+    width:0;
+    height:0;
+    border-style: solid;
+    border-width:20px 20px 20px 30px;
+    border-color:transparent  transparent transparent #07cbc9;
+    position: absolute;
+    top:50%;
+    right:-50px;
+    z-index: 5;
+ }
+/* gallery总样式 */
+.gallery{
+    clear: both;
+	width:100%;
+	height:900px;
+	position:relative;
+}
+/* gallery头部标题样式 */
+.gallery-header{
+	width:500px;
+	height:170px;
+	position:absolute;
+	top:25%;
+	margin-top:-150px;
+	left:50%;
+    margin-left:-250px;
+    text-align: center;
+}
+.gallery-header h1{
+    font-size:36px;
+	font-weight:700;
+}
+
+.gallery-header p{
+    color:#999;
+	margin-top:30px;
+	line-height:25px;
+}
+/* gallery内容图片样式 */
+.gallery-content{
+	width:1200px;
+	height:550px;
+	position:absolute;
+	left:50%;
+	margin-left:-600px;
+	top:35%;
+}
+.gallery-content ul{
+    position:absolute;
+    width:990px;
+    left:50%;
+    margin-left:-495px;
+}
+.gallery-content li{
+    width:300px;
+    height:250px;
+    float:left;
+    margin:0 15px;
+    margin-bottom:30px;
+    background-color:black;
+}
+.gallery-content li img{
+    width:100%;
+    height:75%;
+}
+.gallery-content li P{
+    color:white;
+    line-height:62.5px;
+    padding-left:10px;
+}
+/* 页脚 */
+.footer{
+	height:70px;
+	width:100%;
+	background-color:#07cbc9;
+}
+.footer-content{
+	line-height:70px;
+	color:white;
+	font-weight:400px;
+	text-align:center;
+	font-size:14px;
+}

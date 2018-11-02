@@ -1,0 +1,157 @@
+*{padding: 0;
+margin: 0;
+border:0;
+font-family:arial;
+outline: none;
+-webkit-appearance: none;
+border-radius: 0;
+background: none;
+}
+.baizhong{
+	text-align: center;
+	color:white;
+}
+#div1{
+	position: relative;
+	background-image:url(../img/images/back1_02.png);
+	height: 990px;
+	
+}
+#div1>h1{
+	padding-top:200px;
+	font-size: 60px;
+	font-family:"arial";
+	font-weight: 100;
+	
+}
+#div1>p{
+	padding-top:60px;
+	color:#999;
+	font-size: 18px;
+}
+#div2{
+	width:810px;
+	height:220px;
+	border:0.1px solid #999;
+
+	
+	margin:80px auto;
+}
+#div2>h2{
+	padding-top:50px;
+	font-weight: 100;
+	font-size: 16px;
+}
+#div2>p{
+	color:#999;
+	font-size: 10px;
+	padding-top: 10px;
+	letter-spacing: 1px;
+}
+#div2>form{
+	padding-top:40px;
+	padding-left: 80px;
+}
+.input1{
+	width:250px;
+	height:38px;
+	text-align: 20px;
+	background: none;
+	border:0.5px solid #999;
+	
+}
+.input2{
+	width:250px;
+	height:38px;
+	background: none;
+	border:0.5px solid #999;
+}
+.input3{
+	width:110px;
+	height:47px;
+	border-radius: 5%;
+	background-color: #fff;
+	cursor:pointer;
+}
+
+#div21 h2{
+		text-align: center;
+		font-size: 10px;
+		padding:50px 0px 30px 0 ;
+	}
+#div21>p{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 50;
+	font-family: "monotype corsiva";
+}
+.mokuai{
+	position: relative;
+	padding-bottom: 400px;
+}
+.mokuai1>p{
+	letter-spacing: 1px;
+	
+}
+.mokuai2>p{
+	letter-spacing: 1px;
+}
+.mokuai3>p{
+	letter-spacing: 1px;
+}
+.mokuai4>p{
+	letter-spacing: 1px;
+}
+.mokuai1,.mokuai2,.mokuai3,.mokuai4{
+	
+	width:450px;
+}
+.mokuai1{
+	position: absolute;
+	top:70px;
+	left:240px;
+	
+}
+.mokuai2{
+	position: absolute;
+	top:70px;
+	left:860px;
+}
+.mokuai3{
+	position: absolute;
+	top:210px;
+	left:240px;
+}
+.mokuai4{
+	position: absolute;
+	top:210px;
+	left:860px;
+}
+#tupian1{
+	display: block;
+	position: absolute;
+	top:70px;
+	left: 190px;
+	
+}
+#tupian2{
+	display: block;
+	position: absolute;
+	top:70px;
+	left: 810px;
+	
+}
+#tupian3{
+	display: block;
+	position: absolute;
+	top:210px;
+	left: 180px;
+	
+}
+#tupian4{
+	display: block;
+	position: absolute;
+	top:210px;
+	left: 800px;
+	
+}
